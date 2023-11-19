@@ -1,4 +1,4 @@
-# NLP-Earnings-Transcript
+# Earnings-Call-NLP-Strategy-V3
 **ABSTRACT**
 
 Publicly-traded companies are prohibited to fabricate or deceive investors in earnings calls so it’s a useful tool for stock valuations. There may exist patterns from earnings calls that may be identified by a machine learning algorithm and used to extrapolate the direction of future stock movements. Various feature extraction techniques are used to convert earnings call transcripts (texts) to machine-readable formats (vectors). The main feature extraction methods include the use of TF-IDF and Cosine similarity; sentiment analysis using the Loughran-Mcdonalds Dictionary; and various text complexity metrics. The features are then processed through a Random Forest Classifier where both Binary (one vs rest approach) and Multi-class methods were implemented. The former achieved an average accuracy of 83%, whereas multi-class methods achieved 45% and 74% accuracy, depending on the label range.
